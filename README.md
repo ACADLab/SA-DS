@@ -11,7 +11,7 @@ This section provides a quick start guide to using the SA-DS dataset and associa
 ### Prerequisites
 
 - Docker installed on your machine for Docker-based setup.
-- Basic knowledge of command-line operations and Git for setup without Docker.
+- For GitHub setup make sure to follow the repo [Gemmini](https://github.com/ucb-bar/gemmini.git).
 
 ### Installation
 
@@ -21,3 +21,10 @@ This section provides a quick start guide to using the SA-DS dataset and associa
 
 ```bash
 sudo docker run -it --privileged simonguoziruiberkeley/gemmini_mlsys_22:v1.10 bash
+```
+1. **Navigate to Gemmini Configurations: Inside the Docker container, move to the Gemmini configurations directory:
+   ```bash
+   cd chipyard/generators/gemmini/configs/
+   ```
+2. Replace Configuration Files: Replace GemminiCustomConfigs.scala and GemminiDefaultConfigs.scala with the files provided in this repository.
+3. 
