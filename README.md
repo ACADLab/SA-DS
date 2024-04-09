@@ -2,7 +2,7 @@
 
 ## Description
 
-SA-DS is a groundbreaking project that introduces a comprehensive dataset tailored for DNN-Accelerators, marking a significant stride towards automating DNN (AI) Accelerators. This dataset is designed to support the training, fine-tuning, and employment of multi-short prompt inputs for Large Language Models (LLMs). For an in-depth understanding of the project's objectives and methodologies, we highly recommend reviewing our accompanying paper available at [this link](archive-link).
+SA-DS is a project that introduces a comprehensive dataset tailored for DNN-Accelerators, marking a stride towards automating DNN (AI) Accelerators. This dataset is designed to support the training, fine-tuning, and employment of multi-short prompt inputs for Large Language Models (LLMs). For an in-depth understanding of the project's objectives and methodologies, we highly recommend reviewing our accompanying paper available at [this link](archive-link).
 
 ## Getting Started
 
