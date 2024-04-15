@@ -2,7 +2,7 @@
 
 ## Description
 
-SA-DS is a project that introduces a comprehensive dataset tailored for DNN-Accelerators, marking a stride towards automating DNN (AI) Accelerators. This dataset is designed to support the training, fine-tuning, and employment of multi-short prompt inputs for Large Language Models (LLMs). For an in-depth understanding of the project's objectives and methodologies, we highly recommend reviewing our accompanying paper available at [this link](archive-link).
+This project SA-DS focuses on automating AI acclerators by introducing a domain focused dataset tailored for DNN (AI)-Accelerators. This dataset is consists of SCALA files that are used to generate Gemmini hardware accelerators, contains file formats that designed to support the training, fine-tuning, and employment of multi-short prompt inputs for Large Language Models (LLMs). For an complete understanding of the project's objectives and methodologies, we recommend reviewing our paper available at [this link](archive-link).
 
 ## Getting Started
 
@@ -26,7 +26,7 @@ sudo docker run -it --privileged simonguoziruiberkeley/gemmini_mlsys_22:v1.10 ba
    cd chipyard/generators/gemmini/configs/
    ```
 3. **Replace Configuration Files**: Replace GemminiCustomConfigs.scala and GemminiDefaultConfigs.scala with the files provided in this repository.
-   #### Without Docker
+#### Without Docker
    ### Prerequisites
 - Setup GitHub make sure to follow the steps mentioned in the following repo [Gemmini](https://github.com/ucb-bar/gemmini.git).
 - **Replace Configuration Files**: Follow the same file replacement steps as outlined for Docker users.
