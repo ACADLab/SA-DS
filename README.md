@@ -32,8 +32,9 @@ sudo docker run -it --privileged simonguoziruiberkeley/gemmini_mlsys_22:v1.10 ba
 - **Replace Configuration Files**: Follow the same file replacement steps as outlined for Docker users.
 
 ## Acknowledgments
+
 ## Citation Information
-If this dataset is used in any research please use the citation below.
+If this dataset is used in any research, please use the following citation:
 ``` bash
 @misc{SADS2024dataset,
       title={A Dataset for Large Language Model-Driven AI Accelerator Generation},
@@ -44,4 +45,6 @@ If this dataset is used in any research please use the citation below.
       primaryClass={cs.AR}
 }
 ```
+
+* SADS2024dataset.  A Dataset for Large Language Model-Driven AI Accelerator Generation. Mahmoud Nazzal, Deepak Vungarala, Mehrdad Morsali, Chao Zhang, Arnob Ghosh, Abdallah Khreishah, and Shaahin Angizi (2024). arXiv:2404.10875 [cs.AR] https://arxiv.org/abs/2404.10875 
 
