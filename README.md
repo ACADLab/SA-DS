@@ -28,7 +28,7 @@ This section provides a quick start guide for utilizing the SA-DS dataset along 
     cd chipyard/generators/gemmini/configs/
     ```
 
-   Here, a Python script named `autogemm.py` is used to verify the data points.
+   In this directory, a Python script named `autogemm.py` can be found which is used to verify the data points in dataset.
 
 3. **Replace Configuration Files**: Replace GemminiCustomConfigs.scala and GemminiDefaultConfigs.scala with the files provided in this repository.
 
