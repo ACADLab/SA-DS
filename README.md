@@ -2,36 +2,50 @@
 
 ## Description
 
-This project SA-DS focuses on automating AI acclerators by introducing a domain focused dataset tailored for DNN (AI)-Accelerators. This dataset is consists of SCALA files that are used to generate Gemmini hardware accelerators, contains file formats that designed to support the training, fine-tuning, and employment of multi-short prompt inputs for Large Language Models (LLMs). Please refer to the following paper for a general introduction of the SA-DS data-set: [SA-DS](https://arxiv.org/abs/2404.10875).
+The SA-DS project is committed to automating AI accelerators by introducing a specialized dataset tailored for Deep Neural Network (DNN) Accelerators. This dataset consists of SCALA files used to generate Gemmini hardware accelerators. Due to GitHub policies, only the first 1000 data points are visible, but zip files with similar names contain the complete dataset. It encompasses file formats such as CSV and JSON, facilitating training, fine-tuning, and leveraging multi-short prompt inputs for Large Language Models (LLMs). For a comprehensive understanding of the SA-DS dataset, please refer to the following paper: [SA-DS](https://arxiv.org/abs/2404.10875).
 
 ## Getting Started
 
-This section provides a quick start guide to using the SA-DS dataset and associated configurations.
+This section provides a quick start guide for utilizing the SA-DS dataset along with its associated configurations.
 
 ### Prerequisites
 
-- Docker installed on your machine for Docker-based setup.
+- Ensure Docker is installed on your system for this setup.
 
 ### Installation
 
-#### With Docker
+#### Using Docker
 
-1. **Pull the Docker Image**: Run the following command to pull the required Docker image:
+1. **Pull the Docker Image**: Execute the following command to retrieve the required Docker image:
 
-```bash
-sudo docker run -it --privileged simonguoziruiberkeley/gemmini_mlsys_22:v1.10 bash
-```
-2. **Navigate to Gemmini Configurations**: Inside the Docker container, move to the Gemmini configurations directory:
-   ```bash
-   cd chipyard/generators/gemmini/configs/
-   ```
+    ```bash
+    sudo docker run -it --privileged deepakvungarala/sa_ds:v_1 bash
+    ```
+
+2. **Navigate to Gemmini Configurations**: Within the Docker container, navigate to the Gemmini configurations directory:
+
+    ```bash
+    cd chipyard/generators/gemmini/configs/
+    ```
+
+   Here, a Python script named `autogemm.py` is used to verify the data points.
+
 3. **Replace Configuration Files**: Replace GemminiCustomConfigs.scala and GemminiDefaultConfigs.scala with the files provided in this repository.
-#### Without Docker
-   ### Prerequisites
-- Setup GitHub make sure to follow the steps mentioned in the following repo [Gemmini](https://github.com/ucb-bar/gemmini.git).
-- **Replace Configuration Files**: Follow the same file replacement steps as outlined for Docker users.
 
-## Acknowledgments
+#### Without Docker
+
+### Prerequisites
+
+- Set up GitHub by following the instructions in the following repository: [Gemmini](https://github.com/ucb-bar/gemmini.git).
+  **Note**: Due to some issues, we cannot successfully clone the above repository. Hence, we opted for the Docker setup. The packages differ, and compiling the same code for a Git-cloned repository and Docker may not yield the expected results.
+
+-After the GitHub repo is successfully cloned perform the following steps:
+
+- Utilize the file `GeneratingSA_DS_with_title.py` in this repository to create the dataset for code corresponding to GitHub.
+
+- **Replace Configuration Files**: Follow the same steps for file replacement as outlined for Docker users.
+
+ 
 
 ## Citation Information
 If this dataset is used in any research, please use the following citation:
