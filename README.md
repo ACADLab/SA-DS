@@ -45,7 +45,29 @@ This section provides a quick start guide for utilizing the SA-DS dataset along 
 
 - **Replace Configuration Files**: Follow the same steps for file replacement as outlined for Docker users.
 
+ ### The algorithm used for the generation of SA-DS
  
+ ```mermaid
+ graph TD
+    A[Start] --> B[Input: Source Code S]
+    B --> C[Output: List of Verified Modified Source Codes M]
+    C --> D[P is list of changeable variable parameters]
+    D --> E[M is empty list]
+    E --> F[Generate Variations]
+    F --> G[Loop over combinations in P]
+    G --> H[Set S_mod to S]
+    H --> I[Loop over parameters and values]
+    I --> J[Replace parameter in S_mod with value]
+    J --> K[Verify S_mod with Verilator]
+    K --> L[Is verified?]
+    L -->|Yes| M[Append S_mod to M]
+    L -->|No| N[End]
+    M --> G
+    N --> P[Return M]
+    P --> Q[Return verification result for S_mod]
+
+
+```
 
 ## Citation Information
 If this dataset is used in any research, please use the following citation:
