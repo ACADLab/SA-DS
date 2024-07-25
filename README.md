@@ -73,14 +73,14 @@ This section provides a quick start guide for utilizing the SA-DS dataset along 
 If this dataset is used in any research, please use the following citation:
 ``` bash
 @misc{SADS2024dataset,
-      title={A Dataset for Large Language Model-Driven AI Accelerator Generation},
-      author={Mahmoud Nazzal and Deepak Vungarala and Mehrdad Morsali and Chao Zhang and Arnob Ghosh and Abdallah Khreishah and Shaahin Angizi},
+      title={SA-DS: A Dataset for Large Language Model-Driven AI Accelerator Design Generation},
+      author={Deepak Vungarala and Mahmoud Nazzal and Mehrdad Morsali and Chao Zhang and Arnob Ghosh and Abdallah Khreishah and Shaahin Angizi},
       year={2024},
-      eprint={2404.10875},
+      eprint={2404.10875v2},
       archivePrefix={arXiv},
       primaryClass={cs.AR}
 }
 ```
 
-* SADS2024dataset.  A Dataset for Large Language Model-Driven AI Accelerator Generation. Mahmoud Nazzal, Deepak Vungarala, Mehrdad Morsali, Chao Zhang, Arnob Ghosh, Abdallah Khreishah, and Shaahin Angizi (2024). arXiv:2404.10875 [cs.AR] https://arxiv.org/abs/2404.10875 
+* SADS2024dataset.  SA-DS: A Dataset for Large Language Model-Driven AI Accelerator Design Generation., Deepak Vungarala, Mahmoud Nazzal, Mehrdad Morsali, Chao Zhang, Arnob Ghosh, Abdallah Khreishah, and Shaahin Angizi (2024). arXiv:2404.10875v2 [cs.AR] https://arxiv.org/abs/2404.10875v2 
 
